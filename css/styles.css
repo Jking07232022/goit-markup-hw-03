@@ -1,0 +1,176 @@
+:root{
+    --logo-text-color: #4D5AE5;
+    --primary-white-color: #F4F4FD;
+    --text-black-color: #2E2F42;
+    --text-ashblack-color:#434455;
+    --text-white-color:#FFF;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    /* width: 1440px;
+    height: 72px; */
+    background: #FFF;
+}
+
+/*General*/
+.list {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/*Header*/
+.logo {
+    text-decoration: none;
+    color: var(--text-black-color);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo span{
+    color: var(--logo-text-color);
+}
+
+.header-link{
+    color: var(--text-black-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.contact-link{
+    color: var(--text-ashblack-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+a.header-link:hover{
+    color: var(--logo-text-color);
+}
+
+a.contact-link:hover {
+    color: var(--logo-text-color);
+}
+
+.hero{
+    background-color: var(--text-black-color);   
+}
+
+.product{
+    color: var(--text-white-color);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    text-align: center;
+}
+
+.button{
+    font-family: inherit;
+    color: var(--text-white-color);
+    background-color: var(--logo-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+/*End of Header*/
+
+/*Main*/
+.about-item{
+    color: var(--text-black-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.about-description{
+    color: var(--text-ashblack-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+/* What are we doing */
+.picture-title{
+    color: var(--text-black-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Our Team */
+.team-title{
+    color: var(--text-black-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.team-name{
+    color: var(--text-black-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.team-position{
+    color: var(--text-ashblack-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+/*End of Main*/
+
+/*Footer*/
+.footer{
+    background-color: var(--text-black-color);
+}
+
+.footer-logo{
+    color: var(--primary-white-color);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-logo span{
+    color: var(--logo-text-color)
+}
+
+.footer-description{
+    color: var(--primary-white-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+/*End of Footer*/
